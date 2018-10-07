@@ -1,115 +1,10 @@
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-body {
-	background-color: #68a0b0; /*color of content background*/
-	color: #efeae6; /*color of text*/
-	text-align: center;
-	margin: 0%;
-}
-
-h1 {
-	font-family: 'Poppins', sans-serif;
-	font-style: italic;
-	padding-top: 1.5%;
-	padding-bottom: 1.5%;
-	font-size: 10rem;
-}
-
-h2 {
-	font-family: 'Poppins', sans-sefif;
-	font-style: italic;
-	font-size: 2em;
-}
-
-h3 {
-	display: inline;
-	padding-right: 5%;
-	font-family: 'Poppins', sans-serif;
-}
-
-h3.b2top {
-	font-family: 'Poppins', sans-serif;
-	padding-left: 5.5% ;
-}
-
-p {
-	font-family: 'Poppins', sans-serif;
-}
-
-
-
-img {
-	border: 5px solid #68a0b0;
-}
-
-p {
-	line-height: 3em;
-	padding-left: 2.5%
-	padding-right: 2.5%;
-}
-
-.content {
-	width: 70%;
-	margin: auto auto;
-
-
-}
-
-#bgImage {
-	background-image: linear-gradient(#eaebe6, #c3d6dd); /*color of top background*/
-	/*background-image: url("john-towner-117308-unsplash-crop2.jpg");*/
-	background-size: cover;
-	margin: 0%;
-}
-
-#top {
-	font-size: 300%;
-	font-style: opaque;
-}
-
-#profilePic {
-	width: 10em;
-	height: 10em;
-	border-radius: 50%;
-	padding: 0;
-	margin-top: 2%;
-
-	opacity:0;  /* make things invisible upon start */
-	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-	-moz-animation:fadeIn ease-in 1;
-	animation:fadeIn ease-in 1;
-
-	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-	-moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
-
-	-webkit-animation-duration:1s;
-	-moz-animation-duration:1s;
-	animation-duration:1s;
-}
-
-.linkBarTop {
-	background-color: #efeae6;
-	border-top: 3px solid #a7d8de; /*the bright color*/
-	border-bottom: 3px solid #a7d8de;
-	padding-top: 1%;
-	padding-bottom: 1%;
-}
-
-.linkBarBottom {
-	background-color: #efeae6;
-	border-top: 3px solid #a7d8de;
-	border-bottom: 3px solid #a7d8de;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	margin-top: 2%;
-	margin-bottom: 2%;
-}
-
-.header {
-	background-color: #82919a; /*"carson Welty" bold color*/
-	padding: 0px;
-	/*border: 3px solid black;*/
+#AboutMePic {
+	width: 25em;
+	height: 25em;
+	float: right;
+	margin-top: 3.6%;
+	border:  2px solid white;
+	border-radius: 10px;
 }
 
 .bodyText {
@@ -118,6 +13,7 @@ p {
 	margin-top: 0;
 	padding-top: 0;
 	padding-bottom: 0;
+	padding-left: 0;
 	line-height: 2.3;
 }
 
@@ -125,76 +21,8 @@ p {
 	text-align: left;
 	width: 50%;
 	font-size: 1.75em;
+	font-style: italic;
 	margin: 0;
 	padding: 0;
 	padding-top: 3%;
-}
-
-a {
-	color: #efeae6 ;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #c3d6dd;
-}
-
-a:active {
-	color: #82919a;
-}
-
-a.topLink {
-	color: #82919a;
-	text-decoration: none;
-}
-
-a.topLink:hover {
-	color: #2b1d42;
-}
-
-a.topLink:active {
-	color: black;
-}
-
-a.linkBarTop {
-  display: inline-block;
-  width: 25%;
-  /*padding: .75em;*/
-  margin: 0;
-  text-decoration: none;
-}
-
-/*#present {
-	color: #34333a;
-}*/
-
-#present:hover {
-	color: #34333a;
-}
-
-#credit {
-	font-size: 0.8em;
-}
-
-iframe {
-	border: 2px solid #efeae6;
-	border-radius: 10px;
-}
-
-.mix {
-	margin-bottom: 5%;
-	border: 0;
-}
-
-.promote {
-	padding: 0;
-	margin: 0;
-}
-
-#AboutMePic {
-	width: 25em;
-	height: 25em;
-	float: right;
-	margin-top: 3%;
-	border:  2px solid #efeae6;
 }
