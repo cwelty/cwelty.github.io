@@ -99,11 +99,12 @@ img {
 a {
 	color: white ;
 	text-decoration: none;
+	transition: 0.3s ease;
 }
 
 a:hover {
 	color: #c3d6dd;
-	transition: 0.5s;
+	transition: 0.3s ease;
 }
 
 a:active {
@@ -114,11 +115,12 @@ a:active {
 a.topLink {
 	color: #68a0b0;
 	text-decoration: none;
+	transition: 0.3s ease;
 }
 
 a.topLink:hover {
 	color: #2b1d42;
-	transition: 0.3s;
+	transition: 0.3s ease;
 
 }
 
