@@ -63,12 +63,12 @@ img {
 	margin-right: 1.5%;
 	position: relative;
 	top: 9px;
-	transition: all 3s ease;
+	transition: transform 3s ease;
 }
 
 #profilePic:hover {
 	transform: rotate(360deg);
-	transition: all 2.5s ease;
+	transition: transform 2.5s ease;
 }
 
 .linkBarTop {
