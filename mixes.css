@@ -4,7 +4,7 @@
 }
 
 .describeFirstWordMix {
-	padding: 5% 0;
+	padding: 3.5% 0;
 	font-size: 1.2em;
 	font-style: italic;
 }
@@ -12,6 +12,4 @@
 #promote {
 	padding: 0;
 	margin: 0;
-	margin-top: 10px;
-	font-size: 110%;
 }
