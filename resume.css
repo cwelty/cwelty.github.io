@@ -2,3 +2,9 @@ embed {
 	border: 2px solid white;
 	border-radius: 10px;
 }
+
+.topText {
+	padding: 3.5% 0;
+	font-size: 1.2em;
+}
+	
