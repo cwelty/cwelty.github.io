@@ -1,7 +1,7 @@
 #AboutMePic {
 	width: 20%;
 	height: 20%;
-	float: right;
+	/*float: right; */
 	margin-top: 3.6%;
 	border:  2px solid white;
 	border-radius: 10px;
@@ -9,7 +9,7 @@
 }
 
 .bodyText {
-	text-align: left;
+	text-align: center;
 	width: 50%;
 	margin-top: 0;
 	padding-top: 0;
@@ -19,7 +19,7 @@
 }
 
 .firstWord {
-	text-align: left;
+	text-align: center;
 	width: 50%;
 	font-size: 1.75em;
 	font-style: italic;
